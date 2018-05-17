@@ -1,0 +1,54 @@
+body{
+	font-family: Lato;
+}
+h1{
+	font-weight: bold;
+	text-align: center;
+	margin: 10vh auto;
+}
+
+.correct{
+	color: green;
+	font-size: 2em;
+	text-decoration: underline green;
+}
+
+.wrong{
+	color: red;
+	font-size: 2em;
+	text-decoration: underline red;
+}
+#targettext{
+	text-align: center;
+	margin: 10vh auto;
+	font-size: 2em;
+	width: 80%;
+}
+#input{
+	border: 1px solid black;
+	margin: 2vh auto;
+	width: 80%;
+	margin-left: 10%;
+
+}
+
+button{
+	background: blue;
+	height: 10vh;
+	width: 10%;
+	color: white;
+	border: 2px solid black;
+	margin-left: 10%;
+}
+
+#timer{
+	font-size: 1.2em;
+	margin-left: 25%;
+}
+
+#speed{
+	text-align: center;
+	margin-top: 5%;
+	font-weight: bold;
+	font-size: 1.8em;
+}
