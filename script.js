@@ -92,6 +92,7 @@ bt.addEventListener("click",function () {
 	gameOver=false;
 	span1.textContent=problemText;
 	span2.textContent="";
+	input.value="";
 	speed.classList.remove("correct");
 	input.removeAttribute("readonly");
 	g=new Date;
